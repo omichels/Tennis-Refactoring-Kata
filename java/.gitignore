@@ -2,10 +2,9 @@
 target/
 
 # Eclipse files
-.classpath
-.project
 .settings/
 
 # IntelliJ files
 *.iml
 .idea/
+/bin/

@@ -1,3 +1,4 @@
+
 import static org.junit.Assert.*;
 
 import java.util.Arrays;
@@ -22,7 +23,7 @@ public class TennisTest {
         this.expectedScore = expectedScore;
     }
     
-    @Parameters
+    @Parameters(name= "{index}:  {0} vs. {1} res:{2}")
     public static Collection<Object[]> getAllScores() {
         return Arrays.asList(new Object[][] {
                 { 0, 0, "Love-All" },
